@@ -21,7 +21,10 @@ ___|___|___    ___|___|___    ___|___|___
    |   | O        |   | O      X | O | X
    |   |          |   |          |   |   
 ```
+Download the repo and `cargo run` to play the game, or download the binary from the [releases](https://github.com/Villarrealized/tic-tac-toe-cli/releases) page.
 
-Run `cargo run` to play the game, or download the binary from the [releases](https://github.com/Villarrealized/tic-tac-toe-cli/releases) page
-
+```
+$ chmod +x tic-tac-toe
+$ ./tic-tac-toe
+```
 ![](https://user-images.githubusercontent.com/5977736/83929730-a6273b80-a751-11ea-8358-40f069b7f836.png)

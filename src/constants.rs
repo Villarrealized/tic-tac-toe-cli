@@ -1,0 +1,28 @@
+pub const GAME_START_INFO: &str = "# Tic-Tac-Toe
+--------------------------------------------------------------------------------
+The goal of tic-tac-toe is to be the first player to place 3
+of your marks in a horizontal, vertical, or diagonal line.
+
+When it is your turn, enter the number of the cell you wish to mark.
+
+Type 'q', 'quit', or 'exit' to quit the game.
+Type 'r', 'reset', or 'restart' to start over.
+Type 'l' or 'toggle_layout' to toggle between the numbered and blank layouts
+Type 'c' or 'toggle_color' to show X's and O's colored or plain
+
+## Examples
+O Wins         X Wins        Draw
+   |   |          |   |          |   |      
+ O |   | X        |   | O      O | X | O 
+___|___|___    ___|___|___    ___|___|___
+   |   |          |   |          |   |    
+ X | O | X      X | X | X      O | X | O 
+---|---|---    ---|---|---    ---|---|--- 
+   |   | O        |   | O      X | O | X
+   |   |          |   |          |   |   
+";
+
+pub const INVALID_MOVE_INFO: &str = "That is not a valid move. Try again.";
+
+pub const GAME_START_PROMPT: &str = "Press enter to start";
+pub const PLAY_AGAIN_PROMPT: &str = "Would you like to play again? (y/n)";
